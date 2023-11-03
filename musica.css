@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Sofia+Sans:wght@300&display=swap');
+
+* {
+    margin: auto 0;
+    padding: 0;
+    font-family: 'Edu TAS Beginner', cursive;
+
+}
+
+.d-flex img {
+    height: 6vh;
+    width: 5vw;
+}
+
+.cabecalho {
+    background: linear-gradient(180deg, #013A22, #CDD193);
+    background-blend-mode: darken;
+    height: 10vh;
+    position: relative;
+}
+
+.cabecalho .rounded {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+}
+
+.btn {
+    --bs-btn-color: black;
+    --bs-btn-border-color: #0d1c15;
+    --bs-btn-hover-color: #111010;
+    --bs-btn-hover-bg: #065634;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 0.188rem 0.313rem rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
+
+.corpoDois {
+    background: linear-gradient(180deg, #013A22, #CDD193);
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.titulo1 {
+    color: #000;
+    padding: 2rem 0 1rem 2rem;
+
+}
+
+.playlists {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    padding: 0 0 0 0;
+    justify-content: center;
+
+
+}
+
+.playlists a {
+    text-decoration: none;
+    color: #000;
+}
+
+.playlists a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.playlists a:hover {
+    color: rgb(20, 77, 29);
+}
+
+.text-center1 {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    /* Duas colunas de largura igual */
+    grid-gap: 0rem;
+    /* Espaço entre as imagens */
+    text-align: center;
+    /* Alinhar o conteúdo ao centro */
+    padding: 1rem 0 5rem 2.3rem;
+    margin: 3rem 8rem 0 9rem;
+    width: 17rem;
+    height: 19.5rem;
+    border-radius: 1.25rem;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.text-center1 div {
+    width: 6.25rem;
+    height: 6.25rem;
+    overflow: hidden;
+
+}
+
+.text-center1 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-center1 span {
+    grid-column: span 2;
+    /* Ocupa duas colunas */
+    margin: 0;
+    color: #000;
+    font-family: JejuHallasan;
+    font-size: 1.563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-center3 {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+}
+
+.g-col-4 {
+    margin: 2rem 5rem 0 5rem;
+    padding: 1rem 0rem 0rem 1.8rem;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.45);
+    width: 17.188rem;
+    height: 19.813rem;
+}
+
+.g-col-4 h3 {
+    margin-top: 0.5rem;
+    color: #000;
+    font-family: JejuHallasan;
+    font-size: 1.563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.g-col-4 h4 {
+    margin-top: 0.5rem;
+    color: #000;
+    font-family: JejuHallasan;
+    font-size: 1.563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.g-col-4 h5 {
+    color: rgba(0, 0, 0, 0.48);
+    font-family: JejuHallasan;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.retangulo {
+    border-radius: 1.25rem;
+    background: rgba(0, 0, 0, 0.45);
+    width: 17.188rem;
+    height: 19.813rem;
+}
+
+
+
+.row {
+    justify-content: end;
+    margin: 2rem;
+    color: white;
+}
+
+.carousel-item {
+    justify-content: end;
+    margin: 2rem;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-imagens .col {
+    margin-right: 2.9rem;
+    /* Ajuste o valor conforme necessário para controlar o espaço horizontal entre as imagens */
+}
+
+.container-imagens .col:last-child {
+    margin-right: 0rem;
+    /* Remova a margem à direita da última imagem */
+}
+
+.text-flecha {
+    padding-top: 3rem;
+}
+
+
+
+.player-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: rgba(0, 0, 0, 0.45);
+    width: 110rem;
+    height: 17.9rem;
+    padding: 0 0 5rem 5rem;
+}
+
+.container2 {
+    padding: 0 0 0 3.5rem;
+}
+
+.player-details {
+    padding: 0.5rem 0 0 5rem;
+}
+
+.player-container img {
+    margin-right: 1rem;
+}
+
+.player-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.col-3 {
+    flex: 0 0 auto;
+    margin: 0; /* Remover a margem entre as imagens */
+    padding: 0 0rem 0 0 ; /* Adicionar espaço entre as imagens (se necessário) */
+}
+
+.col-3:last-child {
+    margin-right: 0; /* Remova a margem à direita da última imagem */
+}
+
+.col-3 img{
+    height: 10vh;
+    width: 10vw;
+}
+
+
+

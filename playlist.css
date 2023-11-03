@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Sofia+Sans:wght@300&display=swap');
+
+* {
+   
+    padding: 0;
+    font-family: 'Edu TAS Beginner', cursive;
+
+}
+
+.d-flex img {
+    height: 6vh;
+    width: 5vw;
+    
+}
+
+
+
+.cabecalho {
+    background: linear-gradient(180deg, #013A22, #CDD193);
+    background-blend-mode: darken;
+    height: 10vh;
+    position: relative;
+}
+
+.cabecalho .rounded {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+}
+
+.btn {
+    --bs-btn-color: black;
+    --bs-btn-border-color: #0d1c15;
+    --bs-btn-hover-color: #111010;
+    --bs-btn-hover-bg: #065634;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 0.188rem 0.313rem rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
+
+.text-center1 {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    padding: 1rem 0 5rem 2.3rem;
+    margin: 0 0 0 9rem;
+    width: 23rem;
+    height: 25rem;
+    border-radius: 1.25rem;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+
+
+.text-center1 .img1 {
+    
+    width: 9.125rem;
+    height: 8.556rem;
+    flex-shrink: 0;
+    border-radius: 24px 0px 0px 0px;
+
+}
+.text-center1 .img2 {
+    
+    width: 9.125rem;
+    height: 8.556rem;
+    flex-shrink: 0;
+    border-radius: 0px 24px 0px 0px;
+
+}
+.text-center1 .img3 {
+    
+    width: 9.125rem;
+    height: 8.556rem;
+    flex-shrink: 0;
+    border-radius: 0px 0px 0px 24px;
+
+}
+.text-center1 .img4 {
+    
+    width: 9.125rem;
+    height: 8.556rem;
+    flex-shrink: 0;
+    border-radius: 0px 0px 24px 0px;
+
+}
+
+.playlists {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    padding: 0 0 2rem 0;
+    
+}
+
+.playlists h1{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding: 10rem 5rem 0rem 1rem;
+    font-weight: bold;
+    font-size: 5rem;
+    color: black;
+}
+
+.playlists p{
+    display: flex;
+    padding: 0 5rem 0rem 1rem;
+    font-weight: bold;
+}
+
+.text-center1 .play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 2;
+}
+
+
+.justify-content-center{
+    height: 40vh; 
+    width: 40vw;
+    
+}
+
+.play{
+    padding: 2rem 0 5rem 6.9rem;
+}
